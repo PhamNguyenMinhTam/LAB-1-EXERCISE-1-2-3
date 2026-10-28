@@ -1,0 +1,118 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f0f7f6;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(35, 78, 82, 0.14);
+}
+
+.login {
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+}
+
+.login h2 {
+    font-size: 22px;
+    color: #234e52;
+    margin-bottom: 5px;
+}
+
+.login p {
+    font-size: 12px;
+    color: #60777a;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+form label {
+    display: block;
+    font-size: 12px;
+    color: #36595c;
+    margin-bottom: 5px;
+}
+
+form > input {
+    font-family: inherit;
+    background-color: #f8fbfa;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c8dad8;
+    border-radius: 5px;
+}
+
+.remember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember input {
+    margin: 0 5px 0 0;
+}
+
+.remember label {
+    margin: 0;
+}
+
+button {
+    font-family: inherit;
+    font-weight: 600;
+    width: 100%;
+    padding: 10px;
+    background-color: #0f766e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #115e59;
+}
+
+.welcome {
+    width: 50%;
+    background: linear-gradient(135deg, #0f766e, #164e63);
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.welcome h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.welcome p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+form > input:focus {
+    outline: 2px solid #0f766e;
+    outline-offset: 2px;
+}
+
+.remember input {
+    accent-color: #0f766e;
+}
